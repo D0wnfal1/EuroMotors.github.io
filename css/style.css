@@ -1466,6 +1466,11 @@ input[type=text] {
   min-width: 0;
 }
 
+.main-block__slide {
+  max-width: 100%;
+  height: auto;
+}
+
 .items-block__item {
   width: 100%;
   height: auto;
@@ -1936,7 +1941,7 @@ input[type=text] {
   text-align: center;
   background: #9CDE33;
   border-radius: 20px;
-  padding: 1.25rem 2.5rem 1.25rem 2.5rem;
+  padding: 1.25rem 3.4375rem 1.25rem 3.4375rem;
   -webkit-transition: 0.5s background-color;
   transition: 0.5s background-color;
 }
@@ -2163,25 +2168,31 @@ input[type=text] {
   margin-top: 0.9375rem;
 }
 
-.slider-product__slider {
-  margin-left: auto;
-  margin-right: auto;
+.item-product {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.slider-product {
   position: relative;
-  max-width: 290px;
+  min-width: 300px;
+  max-width: 300px;
   overflow: hidden;
 }
 
 .swiper-slide {
-  min-width: 0;
-}
-
-.swiper-slide__image {
-  min-width: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .swiper-pagination {
   bottom: 0%;
-  right: 45%;
+  right: 40%;
 }
 
 .item-product {
@@ -2521,6 +2532,7 @@ input[type=text] {
 }
 
 .item-reviews__review {
+  text-align: start;
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
   padding-left: 1.25rem;
@@ -2530,7 +2542,7 @@ input[type=text] {
   font-weight: 700;
   line-height: 20px;
   letter-spacing: 0em;
-  text-align: justified;
+  text-align: start;
   border: 2px solid rgb(156, 222, 51);
   border-radius: 0px 20px 20px 20px;
 }
@@ -2559,17 +2571,28 @@ input[type=text] {
 .other-goods-product__slider {
   padding-top: 1.25rem;
   position: relative;
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 auto;
-          flex: 1 1 auto;
-  min-width: 0;
   margin-bottom: 1.25rem;
   overflow: hidden;
+}
+
+.other-goods-product__slide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .item-goods__flex {
   margin-right: 0;
   margin-bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.item-goods__button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
