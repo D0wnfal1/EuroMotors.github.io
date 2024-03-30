@@ -1459,13 +1459,6 @@ input[type=text] {
   row-gap: 1.0625rem;
 }
 
-.main-block__slider {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  min-width: 0;
-}
-
 .main-block__slide {
   max-width: 100%;
   height: auto;
@@ -1676,7 +1669,7 @@ input[type=text] {
 }
 
 .button-items-model {
-  padding-top: 3.75rem;
+  padding-top: 1.875rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1689,7 +1682,7 @@ input[type=text] {
   width: 18.75rem;
   height: 3.75rem;
   font-family: Gilroy;
-  font-size: 1.25rem;
+  font-size: 1.4375rem;
   font-weight: 700;
   line-height: 1.25rem;
   letter-spacing: 0em;
@@ -1709,7 +1702,7 @@ input[type=text] {
   line-height: 42px;
   letter-spacing: 0em;
   text-align: center;
-  padding-top: 3.125rem;
+  padding-top: 2.5rem;
 }
 
 .goods__title::after {
@@ -3953,7 +3946,7 @@ button.swiper-pagination-bullet {
 
 @media (min-width: 1073px) {
   .main-block__slider {
-    max-width: 55%;
+    max-width: 57%;
   }
 }
 

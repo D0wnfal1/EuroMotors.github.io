@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20240218221903">
+	<link rel="stylesheet" href="css/style.min.css?_v=20240330223948">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -45,6 +45,7 @@
 						<ul data-da=".menu__body, 991.98" class="menu-top-header__list">
 							<li class="menu-top-header__item menu-top-header__item_catalog"><a href="" class="menu-top-header__link menu-top-header__link_catalog _icon-small-arrow-down"><span>Каталог товарів</span></a></li>
 							<li class="menu-top-header__item"><a href="index.html" class="menu-top-header__link"><span>Початкова Сторінка</span></a></li>
+							<li class="menu-top-header__item"><a href="home.html" class="menu-top-header__link"><span>Головна Сторінка</span></a></li>
 							<li class="menu-top-header__item"><a href="" class="menu-top-header__link"><span>Особистий кабінет</span></a></li>
 							<li class="menu-top-header__item"><a href="" class="menu-top-header__link"><span>Умови Покупки</span></a></li>
 							<li class="menu-top-header__item"><a href="" class="menu-top-header__link"><span>Гарантія</span></a></li>
@@ -579,68 +580,65 @@
 				<div class="block-product__container">
 					<h1 class="block-product__title">Оливний фільтр</h1>
 					<div class="block-product__item main-block">
-						<div class="item-product__slider slider-product">
-							<!-- Оболочка слайдера -->
-							<div class="slider-product__slider swiper-product">
-								<!-- Двигающееся часть слайдера -->
-								<div class="slider-product__wrapper swiper-wrapper">
-									<div class="slider-product__slide swiper-slide">
-										<!-- Слайд -->
-										<picture><source srcset="img/product-slider/1.webp" type="image/webp"><img src="img/product-slider/1.png" alt=""></picture>
+						<div class="block-product__item item-product">
+							<div class="item-product__slider slider-product">
+								<!-- Оболочка слайдера -->
+								<div class="slider-product__slider swiper-product">
+									<!-- Двигающееся часть слайдера -->
+									<div class="slider-product__wrapper swiper-wrapper">
+										<div class="slider-product__slide swiper-slide">
+											<!-- Слайд -->
+											<picture><source srcset="img/product-slider/1.webp" type="image/webp"><img src="img/product-slider/1.png" alt=""></picture>
+										</div>
+										<div class="slider-product__slide swiper-slide">
+											<!-- Слайд -->
+											<picture><source srcset="img/product-slider/1.webp" type="image/webp"><img src="img/product-slider/1.png" alt=""></picture>
+										</div>
+										<div class="slider-product__slide swiper-slide">
+											<!-- Слайд -->
+											<picture><source srcset="img/product-slider/1.webp" type="image/webp"><img src="img/product-slider/1.png" alt=""></picture>
+										</div>
 									</div>
-									<div class="slider-product__slide swiper-slide">
-										<!-- Слайд -->
-										<picture><source srcset="img/product-slider/1.webp" type="image/webp"><img src="img/product-slider/1.png" alt=""></picture>
-									</div>
-									<div class="slider-product__slide swiper-slide">
-										<!-- Слайд -->
-										<picture><source srcset="img/product-slider/1.webp" type="image/webp"><img src="img/product-slider/1.png" alt=""></picture>
-									</div>
-								</div>
-								<!-- Если нужна пагинация -->
-								<div class="swiper-pagination"></div>
-								<!-- Если нужна навигация (влево/вправо) -->
-								<button type="button" class="swiper-button-prev"></button>
-								<button type="button" class="swiper-button-next"></button>
-							</div>
-						</div>
-						<div class="item-product__body">
-							<h2 class="item-product__vin">vin-код</h2>
-							<h1 class="item-product__title">назва</h1>
-							<div class="item-product__available-not-available">нема в наявності</div>
-							<p class="item-product__description">Lorem Ipsum is simply dummy text of the printing and
-								typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since
-								the
-								1500s, when an unknown printer took a galley of type and scrambled it to make a type
-								specimen book. It has survived not only five centuries, but also the leap into
-								electronic
-								typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
-								release of Letraset sheets containing Lorem Ipsum passages, and more recently with
-								desktop
-								publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem.</p>
-							<div class="item-product__quantity quantity-product">
-								<div class="quantity-product__title">Кількість:</div>
-								<div class="quantity-product__block">
-									<button class="quantity-product__decrease _icon-arrow-left"></button>
-									<input type="number" class="quantity-product__quantity-input" value="1" min="1">
-									<button class="quantity-product__increase _icon-arrow-right"></button>
+									<!-- Если нужна пагинация -->
+									<div class="swiper-pagination"></div>
+									<!-- Если нужна навигация (влево/вправо) -->
+									<button type="button" class="swiper-button-prev"></button>
+									<button type="button" class="swiper-button-next"></button>
 								</div>
 							</div>
-							<div class="item-product__cost item-product__cost_not-available">300 грн</div>
-							<div class="item-goods">
-								<button class="item-goods__button_not-available">купити</button>
-							</div>
-							<div class="block-goods__background"></div>
-							<div class="block-goods__notification notification-block">
-								<div class="notification-block__content">
-									<span class="notification-block__close">&times;</span>
-									<p class="notification-block__text">Товар був успішно доданий до кошика!</p>
+							<div class="item-product__body">
+								<h2 class="item-product__vin">vin-код</h2>
+								<h1 class="item-product__title">назва</h1>
+								<div class="item-product__available-not-available">немає в наявності</div>
+								<p class="item-product__description">Lorem Ipsum is simply dummy text of the printing
+									and
+									typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever
+									since
+									the
+									1500s, when an unknown printer took a galley of type and scrambled it to make a type
+									specimen book. It has survived not only five centuries, but also the leap into
+									electronic
+									typesetting, remaining essentially unchanged. It was popularised in the 1960s with
+									the
+									release of Letraset sheets containing Lorem Ipsum passages, and more recently with
+									desktop
+									publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem.
+								</p>
+								<div class="item-product__quantity quantity-product">
+									<div class="quantity-product__title">Кількість:</div>
+									<div class="quantity-product__block">
+										<button class="quantity-product__decrease _icon-arrow-left"></button>
+										<input type="number" class="quantity-product__quantity-input" value="1" min="1">
+										<button class="quantity-product__increase _icon-arrow-right"></button>
+									</div>
+								</div>
+								<div class="item-product__cost item-product__cost">300 грн</div>
+								<div class="item-goods">
+									<div class="item-goods__button_not-available">купить</div>
 								</div>
 							</div>
-							<div class="item-product__button item-product__button_not-available">купити в 1 клік</div>
 						</div>
 					</div>
-				</div>
 			</section>
 			<article class="product_description">
 				<div class="product_description__container">
@@ -970,7 +968,7 @@
 			</div>
 		</div>
 	</div>
-	<script src="js/app.min.js?_v=20240218221903"></script>
+	<script src="js/app.min.js?_v=20240330223948"></script>
 </body>
 
 </html>
